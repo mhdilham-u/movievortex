@@ -29,7 +29,7 @@ const DiscoverMovies = () => {
         <Search className="absolute w-4" color="#DADADA" />
         <input
           type="text"
-          className="w-full py-3 pl-7 text-sm md:text-base focus:outline-none border-b border-[#575757]"
+          className="w-full py-3 pl-7 text-sm md:text-base focus:outline-none border-b border-[#575757] bg-black"
           placeholder="Search by title..."
           onChange={({ target }) => search(target.value)}
         />
