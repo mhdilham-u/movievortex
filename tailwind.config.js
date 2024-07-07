@@ -17,7 +17,7 @@ export default {
         "2xl": "1320px",
       },
       backgroundImage: {
-        "hero-image": "url('./src/assets/img/hero.jpg')",
+        "hero-image": "url('/src/assets/img/hero.jpg')",
       },
       // backgroundPosition: {
       //   "bottom-4": "top bottom",
