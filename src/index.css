@@ -8,6 +8,10 @@
   color-scheme: dark;
 }
 
+body {
+  @apply bg-black;
+}
+
 .backdrop-shadow {
   @apply after:content-[''] after:block after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-t after:from-black after:via-transparent after:to-slate-900;
 }
